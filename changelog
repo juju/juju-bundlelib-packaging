@@ -1,0 +1,5 @@
+juju-bundlelib (0.1.7-1) trusty; urgency=low
+
+  * Initial release.
+
+ -- Francesco Banconi <frankban@ubuntu>  Mon, 11 May 2015 14:39:09 +0200
