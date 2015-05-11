@@ -1,0 +1,23 @@
+Source: juju-bundlelib
+Section: python
+Priority: optional
+Maintainer: Francesco Banconi <francesco.banconi@canonical.com>
+Standards-Version: 3.9.5
+Build-Depends:
+ debhelper (>= 8~),
+ python-all,
+ python-setuptools,
+ python-nose,
+ python-mock,
+ python-yaml
+XS-Python-Version: all
+Homepage: https://github.com/juju/juju-bundlelib
+
+Package: juju-bundlelib
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${python:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: A Python library for working with Juju bundles.
+ Juju Bundle Lib is a library for processing and validating Juju bundles.
+ It also defines Python bindings for working with charm and bundle references.
