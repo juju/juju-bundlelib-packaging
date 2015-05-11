@@ -1,4 +1,4 @@
-Source: juju-bundlelib
+Source: jujubundlelib
 Section: python
 Priority: optional
 Maintainer: Francesco Banconi <francesco.banconi@canonical.com>
@@ -13,7 +13,7 @@ Build-Depends:
 XS-Python-Version: all
 Homepage: https://github.com/juju/juju-bundlelib
 
-Package: juju-bundlelib
+Package: jujubundlelib
 Architecture: all
 XB-Python-Version: ${python:Versions}
 Depends: ${python:Depends}, ${misc:Depends}
