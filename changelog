@@ -1,3 +1,15 @@
+jujubundlelib (0.1.9-2ubuntu4) UNRELEASED; urgency=medium
+
+  * Make brakes and replaces << 0.1.9-2~ which is the proper version string
+
+ -- Marco Ceppi <marco@ceppi.net>  Wed, 02 Sep 2015 12:59:35 -0400
+
+jujubundlelib (0.1.9-2ubuntu3) wily; urgency=medium
+
+  * Make break and replaces <= instead of <<
+
+ -- Marco Ceppi <marco@ceppi.net>  Wed, 02 Sep 2015 12:33:05 -0400
+
 jujubundlelib (0.1.9-2ubuntu2) wily; urgency=medium
 
   * Make jujubundlelib transitional package

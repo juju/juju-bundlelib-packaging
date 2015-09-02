@@ -28,8 +28,8 @@ Description: transitional dummy package
 Package: python-jujubundlelib
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-yaml
-Breaks: jujubundlelib (<< 0.1.9-1~)
-Replaces: jujubundlelib (<< 0.1.9-1~)
+Breaks: jujubundlelib (<< 0.1.9-2)
+Replaces: jujubundlelib (<< 0.1.9-2)
 Description: A Python2 library for working with Juju bundles.
  Juju Bundle Lib is a library for processing and validating Juju bundles.
  It also defines Python bindings for working with charm and bundle references.
