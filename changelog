@@ -1,3 +1,9 @@
+jujubundlelib (0.2.1-1) wily; urgency=medium
+
+  * Introduce expose change.
+
+ -- Francesco Banconi <francesco.banconi@canonical.com>  Thu, 05 Nov 2015 10:35:47 +0100
+
 jujubundlelib (0.2.0-1) wily; urgency=medium
 
   * Support spaces constraints.
