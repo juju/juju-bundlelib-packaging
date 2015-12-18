@@ -1,3 +1,10 @@
+jujubundlelib (0.4.1-1) wily; urgency=medium
+
+  * Do not assume a jujucharms reference is a bundle.
+  * More generic jujucharms error messages.
+
+ -- Francesco Banconi <francesco.banconi@canonical.com>  Fri, 18 Dec 2015 12:11:35 +0100
+
 jujubundlelib (0.3.2-1) wily; urgency=medium
 
   * Reference object: introduce channels.
